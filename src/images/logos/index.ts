@@ -4,6 +4,8 @@ import DuleIcon from "./dule.png"
 import AJCIcon from "./ajc.png"
 import MMicroLogo from "./mmicro.webp"
 import ElevedirectLogo from "./elevedirect.png"
+import DuleLogo from "./dule.webp"
+import MagooleLogo from "./magoole.png"
 
 export {
   LabseIcon,
@@ -11,5 +13,7 @@ export {
   DuleIcon,
   AJCIcon,
   MMicroLogo,
-  ElevedirectLogo
+  ElevedirectLogo,
+  DuleLogo,
+  MagooleLogo
 };

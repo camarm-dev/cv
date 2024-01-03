@@ -1,7 +1,7 @@
 import {
-  AJCIcon,
+  AJCIcon, DuleLogo,
   ElevedirectLogo,
-  LabseIcon,
+  LabseIcon, MagooleLogo,
   MMicroLogo,
   RemedeIcon,
 } from "@/images/logos";
@@ -110,7 +110,19 @@ export const RESUME_DATA = {
       logo: AJCIcon,
       link: {
         label: "camarm-dev/bfc-avantagesjeunes-mobile",
-        href: "https://gtihub.com/camarm-dev/bfc-avantagesjeunes-mobile",
+        href: "https://github.com/camarm-dev/bfc-avantagesjeunes-mobile",
+      },
+    },
+    {
+      title: "Dule",
+      active: true,
+      techStack: ["Side Project", "TypeScript", "IonicFramework", "CouchDB", "Express", "Mobile App"],
+      description:
+        "Mobile app to schedule events, reminders, take notes and create task lists !",
+      logo: DuleLogo,
+      link: {
+        label: "withdule/dule",
+        href: "https://github.com/withdule/dule",
       },
     },
     {
@@ -122,7 +134,19 @@ export const RESUME_DATA = {
       logo: ElevedirectLogo,
       link: {
         label: "elevedirect/app",
-        href: "https://gtihub.com/elevedirect/app",
+        href: "https://github.com/elevedirect/app",
+      },
+    },
+    {
+      title: "Magoole",
+      active: false,
+      techStack: ["Python", "Flask", "PWA", "DNS", "Ruby"],
+      description:
+        "(Inactive) Open source, free, and privacy respectful search engine with his own crawler, and robots !",
+      logo: MagooleLogo,
+      link: {
+        label: "github.com/magoole",
+        href: "https://github.com/magoole",
       },
     },
   ],
