@@ -74,13 +74,16 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
+    "VueJs",
+    "Ionic",
     "JavaScript",
     "TypeScript",
-    "VueJs",
     "Node.js",
-    "SQL",
     "Python",
     "Ruby",
+    "SQL",
+    "CouchDb",
+    "Mongodb"
   ],
   projects: [
     {
