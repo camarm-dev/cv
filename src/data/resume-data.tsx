@@ -85,6 +85,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Remède",
+      active: true,
       techStack: [
         "TypeScript",
         "IonicFramework",
@@ -102,6 +103,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Avantages Jeunes Mobile",
+      active: true,
       techStack: ["Side Project", "TypeScript", "IonicFramework", "Python", "Mobile App"],
       description:
         "Mobile application for the \"Avantages Jeunes\" card. Let you browse advantages and discount around you.",
@@ -113,6 +115,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Elevedirect",
+      active: false,
       techStack: ["Python", "Flask", "PWA"],
       description:
         "(Archived) Alternative UI to french school ENT (=VLE) \"Ecoledirect\" that shows more datas like averages and enhance use experience.",

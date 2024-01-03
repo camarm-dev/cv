@@ -12,9 +12,10 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  active: boolean;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, active }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
@@ -27,7 +28,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 className="inline-flex items-center gap-1 hover:underline"
               >
                 {title}{" "}
-                <span className="h-1 w-1 rounded-full bg-green-500"></span>
+                <span className={`h-1 w-1 rounded-full bg-${active ? "green": "yellow"}-500`}></span>
               </a>
             ) : (
               title
