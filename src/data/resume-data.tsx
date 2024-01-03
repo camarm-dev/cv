@@ -1,23 +1,12 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
+  AJCIcon,
+  ElevedirectLogo,
+  LabseIcon,
+  MMicroLogo,
+  RemedeIcon,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon } from "@/components/icons";
+import { Coffee } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Armand CAMPONOVO",
@@ -40,53 +29,48 @@ export const RESUME_DATA = {
         icon: GitHubIcon,
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+        name: "Buy me a Coffee",
+        url: "https://ko-fi.com/camarm",
+        icon: Coffee,
+      }
     ],
   },
   education: [
-    {
-      school: "Groupe scolaire du Sacré-Coeur Vercel",
-      degree: "Elementary school and \"collège\" (comprehensive school).",
-      start: "2016",
-      end: "2023",
-    },
     {
       school: "Lycée Pasteur",
       degree: "High School",
       start: "2023",
       end: "Today",
+    },
+    {
+      school: "Groupe scolaire du Sacré-Coeur Vercel",
+      degree: "Elementary school and \"collège\" (comprehensive school).",
+      start: "2016",
+      end: "2023",
     }
   ],
   work: [
-    {
-      company: "Mmicro",
-      link: "https://mmicro.fr",
-      badges: ["Testing period"],
-      title: "Trainee",
-      logo: ParabolLogo,
-      start: "2022",
-      end: "2022",
-      description:
-        "Discovered professional world. Enhenced my skills about hardware and client relation.",
-    },
     {
       company: "Labse Software",
       link: "https://labse.camarm.fr",
       badges: ["Remote"],
       title: "Open Source Developer",
-      logo: ClevertechLogo,
+      logo: LabseIcon,
       start: "2020",
-      end: "2024",
+      end: "Today",
       description:
         "Developed Open Source projects for my fictive company: Labse Software. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
+    },
+    {
+      company: "Mmicro",
+      link: "https://mmicro.fr",
+      badges: ["Testing period"],
+      title: "Trainee",
+      logo: MMicroLogo,
+      start: "2022",
+      end: "2022",
+      description:
+          "Discovered professional world. Enhanced my skills about hardware and client relation.",
     }
   ],
   skills: [
@@ -110,7 +94,7 @@ export const RESUME_DATA = {
         "Mobile App"
       ],
       description: "A french offline dictionary.",
-      logo: ConsultlyLogo,
+      logo: RemedeIcon,
       link: {
         label: "remede.camarm.fr",
         href: "https://remede.camarm.fr",
@@ -121,10 +105,21 @@ export const RESUME_DATA = {
       techStack: ["Side Project", "TypeScript", "IonicFramework", "Python", "Mobile App"],
       description:
         "Mobile application for the \"Avantages Jeunes\" card. Let you browse advantages and discount around you.",
-      logo: MonitoLogo,
+      logo: AJCIcon,
       link: {
         label: "camarm-dev/bfc-avantagesjeunes-mobile",
         href: "https://gtihub.com/camarm-dev/bfc-avantagesjeunes-mobile",
+      },
+    },
+    {
+      title: "Elevedirect",
+      techStack: ["Python", "Flask", "PWA"],
+      description:
+        "(Archived) Alternative UI to french school ENT (=VLE) \"Ecoledirect\" that shows more datas like averages and enhance use experience.",
+      logo: ElevedirectLogo,
+      link: {
+        label: "elevedirect/app",
+        href: "https://gtihub.com/elevedirect/app",
       },
     },
   ],
