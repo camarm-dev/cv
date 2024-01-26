@@ -37,9 +37,7 @@ export function ProjectCard({ title, description, tags, link, active }: Props) {
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <CardDescription className="font-mono text-xs">
-            {description}
-          </CardDescription>
+          <CardDescription className="font-mono text-xs" dangerouslySetInnerHTML={{__html: description}}/>
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex">
