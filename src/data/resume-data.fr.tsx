@@ -87,6 +87,23 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Homelab",
+      active: true,
+      techStack: [
+        "Proxmox",
+        "SSH",
+        "Docker",
+        "KVM",
+        "LXC"
+      ],
+      description: "Détenteur d'un serveur de la gamme Dell depuis 2021, je déploie et administre mes propres services et applications. J'ai pu apprendre à créer une solution d'hébergement simple, stable et évolutive pour mes projets !",
+      logo: RemedeIcon,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
       title: "Remède",
       active: true,
       techStack: [
