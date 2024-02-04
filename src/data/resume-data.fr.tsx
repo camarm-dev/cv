@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       title: "Open Source Developer",
       logo: LabseIcon,
       start: "2020",
-      end: "Today",
+      end: "Aujourd'hui",
       description:
         "Développement de projets Open Source pour mon entreprise fictive: Labse Software. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
     },
