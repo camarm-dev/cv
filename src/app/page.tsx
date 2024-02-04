@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data.fr";
+import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
