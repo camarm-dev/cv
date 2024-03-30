@@ -106,15 +106,16 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
+                      <a className="hover:underline inline-flex" href={work.link}>
+                        {work.company} <img className="rounded-lg w-5 h-5 ml-2" height={20} src={work.logo.src}
+                                            alt={work.company + " logo"}/>
                       </a>
 
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
+                            <Badge
+                                variant="outline"
+                                className="align-middle text-xs"
                             key={badge}
                           >
                             {badge}
