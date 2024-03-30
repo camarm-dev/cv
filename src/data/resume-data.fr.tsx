@@ -1,10 +1,14 @@
 import {
-  AJCIcon, DuleLogo,
+  AJCIcon,
+  DuleLogo,
   ElevedirectLogo,
-  LabseIcon, MagooleLogo,
+  LabseIcon,
+  MagooleLogo,
   MMicroLogo,
   RemedeIcon,
+  PapillonLogo
 } from "@/images/logos";
+
 import { GitHubIcon } from "@/components/icons";
 import { Coffee } from "lucide-react";
 
@@ -14,9 +18,9 @@ export const RESUME_DATA = {
   location: "Etalans, France, CET",
   locationLink: "https://www.google.com/maps/place/Etalans",
   about:
-    "Lycéen. Développeur et apprenti sysadmin. Je créé des projets open source depuis 2020 !",
+    "Lycéen, développeur et apprenti sysadmin. Je créé des projets open source depuis 2020 !",
   summary:
-    "Je suis un jeune développeur qui aime coder sur son temps libre. J'adore créer des projets open source et les maintenir. J'aime aussi contribuer à des projets qui me tiennent à coeur. Avec mon expérience et à travers plusieurs projets, je sais désormais comment structurer, développer et déployer des applications !",
+    "Je suis un jeune développeur qui aime coder sur son temps libre. J'adore créer des applications open source, les déployer et les maintenir. J'aime aussi contribuer à des projets qui me tiennent à coeur.",
   avatarUrl: "/photo.jpeg",
   personalWebsiteUrl: "https://www.camarm.dev",
   contact: {
@@ -38,7 +42,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Lycée Pasteur",
-      degree: "Lycée",
+      degree: "Seconde générale. Prépare les options Math, Physique et NSI.",
       start: "2023",
       end: "Aujourd'hui",
     },
@@ -50,6 +54,17 @@ export const RESUME_DATA = {
     }
   ],
   work: [
+    {
+      company: "PapillonApp",
+      link: "https://getpapillon.xyz",
+      badges: ["Remote"],
+      title: "Open Source Developer & Reverse Engineer",
+      logo: PapillonLogo,
+      start: "2023",
+      end: "Aujourd'hui",
+      description:
+        "Contributeur vérifié et membre du projet Papillon; le meilleur client mobile de vie scolaire, compatible avec votre ENT.",
+    },
     {
       company: "Labse Software",
       link: "https://labse.camarm.fr",
@@ -67,8 +82,8 @@ export const RESUME_DATA = {
       badges: ["Stage"],
       title: "Stagiaire",
       logo: MMicroLogo,
-      start: "2022",
-      end: "2022",
+      start: "Novembre 2022",
+      end: "Décembre 2022",
       description:
           "Grâce à ce stage d'observation, j'ai pu découvrir le monde professionnel. J'ai améliorer mes compétences concernant le <i>hardware</i> et les relations clients.",
     }
@@ -162,7 +177,7 @@ export const RESUME_DATA = {
       active: false,
       techStack: ["Python", "Flask", "PWA", "MongoDB", "QR Code"],
       description:
-        "(Inactif) Projet de découverte de l'entrepreneuriat organisé par mon collège. J'ai créé l'application Web mais j'ai aussi pu manager une équipe de production. Gagnant du <i>Prix Développement Durable</i>.",
+        "(Inactif) Projet de découverte de l'entrepreneuriat organisé par mon collège. J'ai créé l'application Web mais j'ai aussi pu manager une équipe de production. Gagnant du <i>Prix Développement Durable</i> au Festival des Minientreprises.",
       logo: MagooleLogo,
       link: {
         label: "github.com/minientreprise-scv",

@@ -1,9 +1,12 @@
 import {
-  AJCIcon, DuleLogo,
+  AJCIcon,
+  DuleLogo,
   ElevedirectLogo,
-  LabseIcon, MagooleLogo,
+  LabseIcon,
+  MagooleLogo,
   MMicroLogo,
   RemedeIcon,
+  PapillonLogo
 } from "@/images/logos";
 import { GitHubIcon } from "@/components/icons";
 import { Coffee } from "lucide-react";
@@ -51,6 +54,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "PapillonApp",
+      link: "https://getpapillon.xyz",
+      badges: ["Remote"],
+      title: "Open Source Developer & Reverse Engineer",
+      logo: PapillonLogo,
+      start: "2023",
+      end: "Today",
+      description:
+          "Verified contributor and member of the Papillon project; the best school life native client compatible with your ENT.",
+    },
+    {
       company: "Labse Software",
       link: "https://labse.camarm.fr",
       badges: ["Remote"],
@@ -67,8 +81,8 @@ export const RESUME_DATA = {
       badges: ["Testing period"],
       title: "Trainee",
       logo: MMicroLogo,
-      start: "2022",
-      end: "2022",
+      start: "November 2022",
+      end: "December 2022",
       description:
           "Discovered professional world. Enhanced my skills about hardware and client relation.",
     }
