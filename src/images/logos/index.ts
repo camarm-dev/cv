@@ -6,6 +6,7 @@ import MMicroLogo from "./mmicro.webp"
 import ElevedirectLogo from "./elevedirect.png"
 import DuleLogo from "./dule.webp"
 import MagooleLogo from "./magoole.png"
+import PapillonLogo from "./papillon.png"
 
 export {
   LabseIcon,
@@ -15,5 +16,6 @@ export {
   MMicroLogo,
   ElevedirectLogo,
   DuleLogo,
-  MagooleLogo
+  MagooleLogo,
+  PapillonLogo
 };
