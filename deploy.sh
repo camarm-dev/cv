@@ -10,4 +10,4 @@ docker rm cv.camarm.fr
 docker run -d --name cv.camarm.fr -p 3001:3000 --restart unless-stopped cv
 
 echo "Deployed. Opening cv.camarm.fr."
-open cv.camarm.fr
+open https://cv.camarm.fr
