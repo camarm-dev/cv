@@ -196,6 +196,7 @@ export default function Page() {
             title: socialMediaLink.name,
           })),
         ]}
+        french={true}
       />
     </main>
   );
