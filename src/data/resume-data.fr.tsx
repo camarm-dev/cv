@@ -57,7 +57,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "SkinSoft",
-      link: "https://skinsoft.org",
+      link: "https://skinsoft.fr",
       badges: ["Stage"],
       title: "Stagiaire",
       logo: SkinSoftLogo,
