@@ -54,6 +54,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "SkinSoft",
+      link: "https://skinsoft.org",
+      badges: ["Testing period"],
+      title: "Trainee",
+      logo: MMicroLogo,
+      start: "June 2024",
+      end: "July 2024",
+      description:
+          "Realization of a POC application to manage database tables (with a CRUD) and web-based tools for the company's employees to start docker applications.",
+    },
+    {
       company: "PapillonApp",
       link: "https://getpapillon.xyz",
       badges: ["Remote"],
