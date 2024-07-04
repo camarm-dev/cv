@@ -55,6 +55,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "SkinSoft",
+      link: "https://skinsoft.org",
+      badges: ["Stage"],
+      title: "Stagiaire",
+      logo: MMicroLogo,
+      start: "Juin 2024",
+      end: "Juillet 2024",
+      description:
+          "Réalisation d'une maquette d'application de gestion de collection, ainsi que d'outils destinés aux équipes de l'entreprise, pour démarrer des applications avec docker.",
+    },
+    {
       company: "PapillonApp",
       link: "https://getpapillon.xyz",
       badges: ["Remote"],
@@ -63,7 +74,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Aujourd'hui",
       description:
-        "Contributeur vérifié et membre du projet Papillon; le meilleur client mobile de vie scolaire, compatible avec votre ENT.",
+        "Contributeur vérifié du projet Papillon; le meilleur client mobile de vie scolaire, compatible avec votre ENT.",
     },
     {
       company: "Labse Software",
