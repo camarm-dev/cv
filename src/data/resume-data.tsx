@@ -6,7 +6,8 @@ import {
   MagooleLogo,
   MMicroLogo,
   RemedeIcon,
-  PapillonLogo
+  PapillonLogo,
+  SkinSoftLogo
 } from "@/images/logos";
 import { GitHubIcon } from "@/components/icons";
 import { Coffee } from "lucide-react";
@@ -58,7 +59,7 @@ export const RESUME_DATA = {
       link: "https://skinsoft.org",
       badges: ["Testing period"],
       title: "Trainee",
-      logo: MMicroLogo,
+      logo: SkinSoftLogo,
       start: "June 2024",
       end: "July 2024",
       description:

@@ -6,7 +6,8 @@ import {
   MagooleLogo,
   MMicroLogo,
   RemedeIcon,
-  PapillonLogo
+  PapillonLogo,
+  SkinSoftLogo
 } from "@/images/logos";
 
 import { GitHubIcon } from "@/components/icons";
@@ -59,7 +60,7 @@ export const RESUME_DATA = {
       link: "https://skinsoft.org",
       badges: ["Stage"],
       title: "Stagiaire",
-      logo: MMicroLogo,
+      logo: SkinSoftLogo,
       start: "Juin 2024",
       end: "Juillet 2024",
       description:

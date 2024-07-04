@@ -7,6 +7,7 @@ import ElevedirectLogo from "./elevedirect.png"
 import DuleLogo from "./dule.webp"
 import MagooleLogo from "./magoole.png"
 import PapillonLogo from "./papillon.png"
+import SkinSoftLogo from "./skinsoft.png"
 
 export {
   LabseIcon,
@@ -17,5 +18,6 @@ export {
   ElevedirectLogo,
   DuleLogo,
   MagooleLogo,
-  PapillonLogo
+  PapillonLogo,
+  SkinSoftLogo
 };
