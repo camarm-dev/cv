@@ -78,7 +78,7 @@ export const RESUME_DATA = {
         "Contributeur vérifié du projet Papillon; le meilleur client mobile de vie scolaire, compatible avec votre ENT.",
     },
     {
-      company: "Labse Software",
+      company: "Labse Studio",
       link: "https://labse.camarm.fr",
       badges: ["Remote"],
       title: "Open Source Developer",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Aujourd'hui",
       description:
-        "Développement de projets Open Source pour mon entreprise fictive: Labse Software. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
+        "Développement de projets Open Source pour mon entreprise fictive: Labse Studio. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
     },
     {
       company: "Mmicro",
@@ -141,7 +141,7 @@ export const RESUME_DATA = {
         "Python",
         "Mobile App"
       ],
-      description: "Un dictionnaire français, gratuit et open source !",
+      description: "Un dictionnaire français (et anglais), gratuit et open source ! Rimes, pluriels, prononciations, synonymes, antonymes, conjugaisons... Remède est cross-platform, simple mais puissant.",
       logo: RemedeIcon,
       link: {
         label: "remede.camarm.fr",

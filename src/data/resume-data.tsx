@@ -77,7 +77,7 @@ export const RESUME_DATA = {
           "Verified contributor and member of the Papillon project; the best school life native client compatible with your ENT.",
     },
     {
-      company: "Labse Software",
+      company: "Labse Studio",
       link: "https://labse.camarm.fr",
       badges: ["Remote"],
       title: "Open Source Developer",
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Today",
       description:
-        "Developed Open Source projects for my fictive company: Labse Software. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
+        "Developed Open Source projects for my fictive company: Labse Studio. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
     },
     {
       company: "Mmicro",
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
         "Python",
         "Mobile App"
       ],
-      description: "A french offline dictionary.",
+      description: "A french and english offline dictionary. Supports multiple languages. Cross-platform. Rimes, plurals, pronunciations and more...",
       logo: RemedeIcon,
       link: {
         label: "remede.camarm.fr",
