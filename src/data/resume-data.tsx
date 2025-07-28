@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Today",
       description:
-        "Developed Open Source projects for my fictive company: Labse Studio. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
+        "Through my self-employed business, Labse Studio, I help independent projects (open source projects, associations, etc.) with their online presence and work processes.",
     },
     {
       company: "Mmicro",
@@ -167,15 +167,15 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Magoole",
+      title: "La Plante QR",
       active: false,
-      techStack: ["Python", "Flask", "PWA", "DNS", "Ruby"],
+      techStack: ["Python", "Flask", "PWA", "MongoDB", "QR Code"],
       description:
-        "(Inactive) Open source, free, and privacy respectful search engine with his own crawler, and robots !",
+          "Entrepreneurship project made possible thanks to my school. I created the web application and I also managed a whole production team. Winners of the <i>Sustainable Development Award</i> at the Festival des Minientreprises.",
       logo: MagooleLogo,
       link: {
-        label: "github.com/magoole",
-        href: "https://github.com/magoole",
+        label: "github.com/minientreprise-scv",
+        href: "https://github.com/minientreprise-scv/app",
       },
     },
   ],

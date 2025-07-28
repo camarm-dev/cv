@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Aujourd'hui",
       description:
-        "Développement de projets Open Source pour mon entreprise fictive: Labse Studio. Technologies: Python, Typescript, Vue, SQL, Mongodb.",
+        "Grâce à mon auto-entreprise Labse Studio, j'aide les projets indépendants (projets open source, associations...) dans leur présence en ligne et leur processus de travail.",
     },
     {
       company: "Mmicro",
