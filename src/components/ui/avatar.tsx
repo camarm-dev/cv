@@ -26,6 +26,7 @@ const AvatarImage = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AvatarPrimitive.Image
     ref={ref}
+    style={{ objectFit: "cover" }}
     className={cn("aspect-square h-full w-full", className)}
     {...props}
   />
