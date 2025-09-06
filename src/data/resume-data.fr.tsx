@@ -73,9 +73,9 @@ export const RESUME_DATA = {
       title: "Open Source Developer & Reverse Engineer",
       logo: PapillonLogo,
       start: "2023",
-      end: "Aujourd'hui",
+      end: "2025",
       description:
-        "Contributeur vérifié du projet Papillon; le meilleur client mobile de vie scolaire, compatible avec votre ENT.",
+        "Contributeur vérifié du projet Papillon; un client mobile de vie scolaire.",
     },
     {
       company: "Labse Studio",

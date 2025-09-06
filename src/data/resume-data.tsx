@@ -72,9 +72,9 @@ export const RESUME_DATA = {
       title: "Open Source Developer & Reverse Engineer",
       logo: PapillonLogo,
       start: "2023",
-      end: "Today",
+      end: "2025",
       description:
-          "Verified contributor and member of the Papillon project; the best school life native client compatible with your ENT.",
+          "Verified contributor of the Papillon project; a school life native client.",
     },
     {
       company: "Labse Studio",
